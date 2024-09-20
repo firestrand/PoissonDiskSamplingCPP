@@ -1,7 +1,3 @@
-Here is a suggested `README.md` for your C++ Poisson Disk Sampling implementation:
-
----
-
 # Poisson Disk Sampling in Arbitrary Dimensions
 
 This project provides an implementation of Poisson Disk Sampling in arbitrary dimensions using C++. Poisson Disk Sampling is a technique used to generate a set of points that are evenly distributed with a minimum distance between them. This can be useful for generating random samples in multidimensional spaces for various applications, such as graphics, simulation, and scientific computing.
