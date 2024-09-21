@@ -10,7 +10,11 @@ set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
 find_package(Boost REQUIRED COMPONENTS system filesystem)
 
 add_executable(PoissonDiskSamplingCPP main.cpp
-        PoissonDiskSampling.cpp
-        PoissonDiskSampling.h)
+        poisson_disk_sampling.cpp
+        poisson_disk_sampling.h
+        distance_constrained_sampling.cpp
+        distance_constrained_sampling.h
+        distance_metrics.h
+        sampling_interface.h)
 
 target_link_libraries(PoissonDiskSamplingCPP PRIVATE Boost::system Boost::filesystem)
